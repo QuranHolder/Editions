@@ -1,0 +1,9 @@
+:root,
+body.dark {
+  --ion-color-primary: #3b788a;
+  --ion-color-primary-rgb: 59, 120, 138;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #346a79;
+  --ion-color-primary-tint: #4f8696;
+}
