@@ -388,5 +388,44 @@
     "isImage": true,
     "approxSizeMb": 71,
     "folder": "shmrly_nahas_warsh"
+  },
+  {
+    "id": "shmrly_qalon",
+    "name": "مصحف قالون عن نافع (الشمرلي)",
+    "englishName": "Shamarly Qalon Mushaf",
+    "description": "رواية قالون عن نافع المدني بتخطيط مصحف الشمرلي (٥٢٢ صفحة) - إعداد م. محمد شلبي",
+    "dialect": "shmrly",
+    "pagesFrom": 2,
+    "pagesTo": 522,
+    "totalPages": 521,
+    "isImage": true,
+    "approxSizeMb": 45,
+    "folder": "shmrly_qalon"
+  },
+  {
+    "id": "shmrly_shoba",
+    "name": "مصحف شعبة عن عاصم (تخطيط الشمرلي)",
+    "englishName": "Shamarly Shoba Mushaf",
+    "description": "رواية شعبة بن عياش عن عاصم الكوفي بتخطيط مصحف الشمرلي (٥٢٢ صفحة) - إعداد م. محمد شلبي",
+    "dialect": "shmrly",
+    "pagesFrom": 2,
+    "pagesTo": 522,
+    "totalPages": 521,
+    "isImage": true,
+    "approxSizeMb": 45,
+    "folder": "shmrly_shoba"
+  },
+   {
+    "id": "shmrlyDoc",
+    "name": "مصحف الشمرلي خط حاسب",
+    "englishName": "Shamarly  Mushaf",
+    "description": "رواية  حفص عن عاصم الكوفي بتخطيط مصحف الشمرلي (٥٢٢ صفحة) - إعداد م. محمد شلبي",
+    "dialect": "shmrly",
+    "pagesFrom": 2,
+    "pagesTo": 522,
+    "totalPages": 521,
+    "isImage": true,
+    "approxSizeMb": 45,
+    "folder": "shmrlyDoc"
   }
 ]
