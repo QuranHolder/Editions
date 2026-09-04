@@ -78,6 +78,20 @@
     "folder": "warsh"
   },
   {
+    "id": "warshkf",
+    "name": "مصحف ورش عن نافع - مجمع الملك فهد",
+    "englishName": "Warsh Mushaf KF Complex",
+    "description": "رواية ورش عن نافع المدني من طريق الأزرق (٦٠٤ صفحة)",
+    "dialect": "madina",
+    "pagesFrom": 1,
+    "pagesTo": 604,
+    "totalPages": 604,
+    "isImage": true,
+    "approxSizeMb": 76,
+    "folder": "warshkf"
+  },
+
+  {
     "id": "qalon",
     "name": "مصحف قالون عن نافع",
     "englishName": "Qalon Mushaf",
