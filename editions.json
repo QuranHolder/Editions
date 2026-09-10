@@ -441,5 +441,18 @@
     "isImage": true,
     "approxSizeMb": 45,
     "folder": "shmrlyDoc"
+  },
+  {
+    "id": "shmrlyut",
+    "name": "مصحف موافق للشمرلي عثمان طه"
+    "englishName": "Shamarly Mushaf Uthman Taha",
+    "description": "طبعة المجمع موافقة للشمرلي",
+    "dialect": "shmrly",
+    "pagesFrom": 2,
+    "pagesTo": 522,
+    "totalPages": 521,
+    "isImage": true,
+    "approxSizeMb": 37,
+    "folder": "shmrlyut"
   }
 ]
