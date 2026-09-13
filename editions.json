@@ -90,7 +90,6 @@
     "approxSizeMb": 76,
     "folder": "warshkf"
   },
-
   {
     "id": "qalon",
     "name": "مصحف قالون عن نافع",
@@ -403,7 +402,7 @@
     "approxSizeMb": 71,
     "folder": "shmrly_nahas_warsh"
   },
-    {
+  {
     "id": "shmrly_nahas_kisaikhalaf",
     "name": "مصحف الكسائي وخلف (الشمرلي)",
     "englishName": "Shamarly Kisaei and Khalaf Mushaf",
@@ -416,7 +415,6 @@
     "approxSizeMb": 71,
     "folder": "shmrly_nahas_kisaikhalaf"
   },
-
   {
     "id": "shmrly_qalon",
     "name": "مصحف قالون عن نافع (الشمرلي)",
@@ -443,7 +441,7 @@
     "approxSizeMb": 45,
     "folder": "shmrly_shoba"
   },
-   {
+  {
     "id": "shmrlyDoc",
     "name": "مصحف الشمرلي خط حاسب",
     "englishName": "Shamarly  Mushaf",
@@ -468,5 +466,18 @@
     "isImage": true,
     "approxSizeMb": 37,
     "folder": "shmrlyut"
+  },
+  {
+    "id": "mesaha",
+    "name": "مصحف مصلحة المساحة",
+    "englishName": "Mesaha Mushaf",
+    "description": "مصحف مصلحة المساحة المصرية (٨٢٦ صفحة)",
+    "dialect": "shmrly",
+    "pagesFrom": 2,
+    "pagesTo": 827,
+    "totalPages": 826,
+    "isImage": true,
+    "approxSizeMb": 44,
+    "folder": "mesaha"
   }
 ]
