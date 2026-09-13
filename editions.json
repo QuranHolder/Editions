@@ -403,6 +403,20 @@
     "approxSizeMb": 71,
     "folder": "shmrly_nahas_warsh"
   },
+    {
+    "id": "shmrly_nahas_kisaikhalaf",
+    "name": "مصحف الكسائي وخلف (الشمرلي)",
+    "englishName": "Shamarly Kisaei and Khalaf Mushaf",
+    "description": "قراءتي الكسائي وخلف العاشر بطبعة الشمرلي - إعداد محمود عزت النحاس",
+    "dialect": "shmrly",
+    "pagesFrom": 2,
+    "pagesTo": 522,
+    "totalPages": 521,
+    "isImage": true,
+    "approxSizeMb": 71,
+    "folder": "shmrly_nahas_kisaikhalaf"
+  },
+
   {
     "id": "shmrly_qalon",
     "name": "مصحف قالون عن نافع (الشمرلي)",
