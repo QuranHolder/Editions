@@ -4,8 +4,15 @@ Convert Mushaf PDF to high-quality transparent PNG pages with minimal file size.
 Specifically tuned for Arabic Mushaf editions with diacritics, colored qiraat marks, and ornate borders.
 Supports both digital white-background PDFs and scanned parchment/cream-background PDFs.
 
+Features:
+- Automatic paper background color detection (cream/parchment vs digital white)
+- De-fringing of residual paper background halo around text for clean dark mode
+- Text contrast enhancement (deepens Arabic ink, removes scan noise, improves compressibility)
+- Scanner margin gutter cleanup on standard text pages
+- Adaptive palette quantization (36 colors for text pages, 128 colors for frontispiece)
+
 Usage:
-    python convert_editions.py --pdf "D:\editionsbuffer\madinaold1.pdf" --edition-symbol madinaold1
+    python convert_editions.py --pdf "D:\editionsbuffer\madinaold1.pdf" --edition-symbol madinaold1 --dpi 120
     python convert_editions.py --pdf "D:\editionsbuffer\mushaf3shemerlyHQ.pdf" --edition-symbol shmrly_qalon
     python convert_editions.py --pdf "D:\editionsbuffer\Sho3baShamarlyDOC1.pdf" --edition-symbol shmrly_shoba
     python convert_editions.py --all
@@ -66,15 +73,17 @@ def process_single_page(
     pdf_path: str,
     page_idx: int,
     output_file: str,
-    dpi: int = 150,
+    dpi: int = 120,
     bg_color: tuple = None,
     is_cream: bool = False,
     thresh: int = None,
     max_colors: int = 128,
-    clean_margins: bool = True
+    clean_margins: bool = True,
+    enhance_contrast: bool = True,
+    text_colors: int = 36
 ) -> tuple:
     """
-    Renders a single PDF page, makes paper background transparent,
+    Renders a single PDF page, removes background with de-fringing, enhances ink contrast,
     quantizes to optimized palette PNG with transparency, and saves to file.
     
     Returns (page_idx, file_size_bytes, success)
@@ -96,15 +105,26 @@ def process_single_page(
             paper_gray = 0.299 * bg_color[0] + 0.587 * bg_color[1] + 0.114 * bg_color[2]
             gray = arr[:, :, 0] * 0.299 + arr[:, :, 1] * 0.587 + arr[:, :, 2] * 0.114
             diff = np.max(np.abs(arr.astype(float) - np.array(bg_color, dtype=float)), axis=-1)
+            sat = np.max(arr, axis=-1) - np.min(arr, axis=-1)
             
-            bg_mask = (diff <= dist_thresh) & (gray >= (paper_gray - 25))
-            
-            # Clear outer scanner gutter/spine dark strip on standard text pages (pages >= 3)
-            if clean_margins and page_idx >= 2:
-                margin_w = int(12 * dpi / 150)
-                if margin_w > 0:
+            if page_idx < 2:
+                # Decorative frontispiece pages 1 & 2
+                bg_mask = (diff <= 26) & (gray >= (paper_gray - 20))
+            else:
+                # Standard text pages:
+                # De-fringe: remove residual cream paper halo (gray >= 200)
+                bg_mask = ((diff <= dist_thresh) & (gray >= (paper_gray - 28))) | (gray >= 200)
+                
+                # Clear outer scanner gutter/spine dark strip
+                if clean_margins:
+                    margin_w = max(1, int(12 * dpi / 150))
                     bg_mask[:, :margin_w] = True
                     bg_mask[:, -margin_w:] = True
+                
+                # Enhance text contrast: deepen dark calligraphy ink (gray < 140, sat < 40)
+                if enhance_contrast:
+                    ink_mask = (gray < 140) & (sat < 40) & (~bg_mask)
+                    arr[ink_mask] = (arr[ink_mask].astype(float) * 0.65).astype(np.uint8)
         else:
             # Standard white / near-white background
             white_thresh = thresh if thresh is not None else 240
@@ -115,24 +135,11 @@ def process_single_page(
         rgba_arr = np.dstack([arr, alpha])
         img_rgba = Image.fromarray(rgba_arr, 'RGBA')
         
-        # Check colored pixels to adaptively choose palette size
-        # Frontispiece pages (0 and 1) or pages with heavy decorative borders use full palette (128 colors)
-        # Standard text pages use 64 colors for even smaller footprint
+        # Adaptive palette budget
         if page_idx < 2:
             colors = max_colors
         else:
-            fg_mask = ~bg_mask
-            fg_pixels = arr[fg_mask]
-            if len(fg_pixels) > 0:
-                colored_mask = (
-                    (np.abs(fg_pixels[:, 0].astype(int) - fg_pixels[:, 1].astype(int)) > 25) |
-                    (np.abs(fg_pixels[:, 1].astype(int) - fg_pixels[:, 2].astype(int)) > 25) |
-                    (np.abs(fg_pixels[:, 0].astype(int) - fg_pixels[:, 2].astype(int)) > 25)
-                )
-                is_decorative = np.sum(colored_mask) > 10000
-                colors = max_colors if is_decorative else min(64, max_colors)
-            else:
-                colors = 32
+            colors = min(text_colors, max_colors)
         
         # Quantize to palette mode with transparency
         img_p = img_rgba.quantize(colors=colors, method=Image.Quantize.FASTOCTREE)
@@ -152,11 +159,13 @@ def convert_edition(
     pdf_path: str,
     edition_symbol: str,
     editions_repo_dir: str = DEFAULT_EDITIONS_REPO,
-    dpi: int = 150,
+    dpi: int = 120,
     workers: int = None,
     bg_mode: str = "auto",
     thresh: int = None,
-    clean_margins: bool = True
+    clean_margins: bool = True,
+    enhance_contrast: bool = True,
+    text_colors: int = 36
 ):
     r"""
     Converts all pages in a PDF to the editions directory structure:
@@ -193,12 +202,14 @@ def convert_edition(
     
     print(f"==================================================")
     print(f"Starting conversion for edition: {edition_symbol}")
-    print(f"Source PDF:       {pdf_path}")
-    print(f"Total pages:      {total_pages}")
-    print(f"Output directory: {pages_dir}")
-    print(f"Rendering DPI:    {dpi}")
-    print(f"Background mode:  {bg_desc}")
-    print(f"Clean margins:    {clean_margins}")
+    print(f"Source PDF:         {pdf_path}")
+    print(f"Total pages:        {total_pages}")
+    print(f"Output directory:   {pages_dir}")
+    print(f"Rendering DPI:      {dpi}")
+    print(f"Background mode:    {bg_desc}")
+    print(f"Clean margins:      {clean_margins}")
+    print(f"Enhance contrast:   {enhance_contrast}")
+    print(f"Text palette colors:{text_colors}")
     print(f"==================================================")
     
     start_time = time.time()
@@ -225,7 +236,9 @@ def convert_edition(
                     is_cream,
                     thresh,
                     128,
-                    clean_margins
+                    clean_margins,
+                    enhance_contrast,
+                    text_colors
                 )
             )
         
@@ -258,11 +271,13 @@ def main():
     parser.add_argument("--pdf", type=str, help="Path to input PDF file")
     parser.add_argument("--edition-symbol", type=str, help="Target edition symbol (e.g. madinaold1, shmrly_qalon)")
     parser.add_argument("--repo-dir", type=str, default=DEFAULT_EDITIONS_REPO, help="Editions repository directory")
-    parser.add_argument("--dpi", type=int, default=150, help="Rendering DPI (default 150)")
+    parser.add_argument("--dpi", type=int, default=120, help="Rendering DPI (default 120, use 150 for high-dpi)")
     parser.add_argument("--workers", type=int, default=None, help="Number of parallel worker processes")
     parser.add_argument("--bg-mode", type=str, default="auto", help="Background mode: 'auto', 'white', 'cream', or 'R,G,B' (default: auto)")
     parser.add_argument("--thresh", type=int, default=None, help="Threshold override (color distance for cream or min brightness for white)")
     parser.add_argument("--no-clean-margins", action="store_true", help="Disable scanner margin gutter cleanup on standard pages")
+    parser.add_argument("--no-contrast", action="store_true", help="Disable calligraphy ink contrast deepening")
+    parser.add_argument("--colors", type=int, default=36, help="Palette colors for text pages (default 36)")
     parser.add_argument("--all", action="store_true", help="Process all default buffer PDFs")
     
     args = parser.parse_args()
@@ -282,7 +297,9 @@ def main():
                     workers=args.workers,
                     bg_mode=args.bg_mode,
                     thresh=args.thresh,
-                    clean_margins=not args.no_clean_margins
+                    clean_margins=not args.no_clean_margins,
+                    enhance_contrast=not args.no_contrast,
+                    text_colors=args.colors
                 )
             else:
                 print(f"File not found: {pdf_path}", file=sys.stderr)
@@ -297,7 +314,9 @@ def main():
             workers=args.workers,
             bg_mode=args.bg_mode,
             thresh=args.thresh,
-            clean_margins=not args.no_clean_margins
+            clean_margins=not args.no_clean_margins,
+            enhance_contrast=not args.no_contrast,
+            text_colors=args.colors
         )
 
 
