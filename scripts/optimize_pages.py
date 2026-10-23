@@ -98,13 +98,13 @@ def optimize_single_page(args):
         return orig_sz, orig_sz, False
 
 
-def optimize_edition(edition_name, base_dir=DEFAULT_EDITIONS_DIR, max_workers=None):
+def optimize_edition(edition_name, base_dir=DEFAULT_EDITIONS_DIR, max_workers=None, index_info=""):
     """
     Optimizes all pages for a given edition in base_dir.
     """
     pages_dir = os.path.join(base_dir, edition_name, "assets", "edition", "pages")
     if not os.path.isdir(pages_dir):
-        print(f"[-] Pages directory not found: {pages_dir}")
+        print(f"[-] Pages directory not found: {pages_dir}", flush=True)
         return 0, 0
 
     page_files = sorted(
@@ -113,10 +113,11 @@ def optimize_edition(edition_name, base_dir=DEFAULT_EDITIONS_DIR, max_workers=No
     )
 
     if not page_files:
-        print(f"[-] No PNG pages found in: {pages_dir}")
+        print(f"[-] No PNG pages found in: {pages_dir}", flush=True)
         return 0, 0
 
-    print(f"\n[+] Optimizing edition '{edition_name}' ({len(page_files)} pages)...")
+    prefix = f"{index_info} " if index_info else ""
+    print(f"\n[+] {prefix}Optimizing edition '{edition_name}' ({len(page_files)} pages)...", flush=True)
     tasks = [(p, p) for p in page_files]
 
     t0 = time.time()
@@ -130,10 +131,10 @@ def optimize_edition(edition_name, base_dir=DEFAULT_EDITIONS_DIR, max_workers=No
     saved = orig_total - new_total
     pct = (saved / orig_total * 100) if orig_total > 0 else 0
 
-    print(f"    Completed in {elapsed:.1f}s")
-    print(f"    Original Size: {orig_total / (1024*1024):.2f} MB")
-    print(f"    Optimized:     {new_total / (1024*1024):.2f} MB")
-    print(f"    Saved:         {saved / (1024*1024):.2f} MB ({pct:.1f}% reduction)")
+    print(f"    Completed in {elapsed:.1f}s", flush=True)
+    print(f"    Original Size: {orig_total / (1024*1024):.2f} MB", flush=True)
+    print(f"    Optimized:     {new_total / (1024*1024):.2f} MB", flush=True)
+    print(f"    Saved:         {saved / (1024*1024):.2f} MB ({pct:.1f}% reduction)", flush=True)
 
     return orig_total, new_total
 
@@ -158,21 +159,21 @@ def main():
             d for d in os.listdir(args.repo_dir)
             if os.path.isdir(os.path.join(args.repo_dir, d, "assets", "edition", "pages"))
         ])
-        print(f"Found {len(editions)} editions to optimize.")
+        print(f"Found {len(editions)} editions to optimize.", flush=True)
         total_orig, total_new = 0, 0
-        for ed in editions:
-            o, n = optimize_edition(ed, args.repo_dir, args.workers)
+        for idx, ed in enumerate(editions):
+            o, n = optimize_edition(ed, args.repo_dir, args.workers, index_info=f"[{idx+1}/{len(editions)}]")
             total_orig += o
             total_new += n
 
         total_saved = total_orig - total_new
         pct = (total_saved / total_orig * 100) if total_orig > 0 else 0
-        print("\n" + "=" * 60)
-        print("OVERALL SUMMARY ACROSS ALL EDITIONS")
-        print("=" * 60)
-        print(f"Initial:   {total_orig / (1024*1024):.2f} MB")
-        print(f"Optimized: {total_new / (1024*1024):.2f} MB")
-        print(f"Saved:     {total_saved / (1024*1024):.2f} MB ({pct:.1f}%)")
+        print("\n" + "=" * 60, flush=True)
+        print("OVERALL SUMMARY ACROSS ALL EDITIONS", flush=True)
+        print("=" * 60, flush=True)
+        print(f"Initial:   {total_orig / (1024*1024):.2f} MB", flush=True)
+        print(f"Optimized: {total_new / (1024*1024):.2f} MB", flush=True)
+        print(f"Saved:     {total_saved / (1024*1024):.2f} MB ({pct:.1f}%)", flush=True)
 
 
 if __name__ == "__main__":
