@@ -466,5 +466,18 @@
     "isImage": true,
     "approxSizeMb": 31,
     "folder": "mesaha"
+  },
+    {
+    "id": "Asbahanitjwid",
+    "name": "المعلم برواية ورش من طريق الأصبهاني",
+    "englishName": "Warsh Asbahani Tajwid",
+    "description": "مصحف برواية ورش من طريق الأصبهاني",
+    "dialect": "madina",
+    "pagesFrom": 1,
+    "pagesTo": 604,
+    "totalPages": 604,
+    "isImage": true,
+    "approxSizeMb": 42,
+    "folder": "Asbahanitjwid"
   }
 ]
