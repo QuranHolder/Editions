@@ -31,9 +31,10 @@
     "name": "مصطفى إسماعيل",
     "title": "المصحف المرتل",
     "rewaya": "حفص عن عاصم",
-    "urlOnline": "https://quran.ksu.edu.sa/ayat/mp3/Mostafa_Ismail_128kbps",
+    "urlOnline": "https://archive.org/download/wathkro-quran-mostafa-ismail-ayah-opus",
     "order": 4,
-    "isEnabled": true
+    "isEnabled": true,
+    "format": "opus"
   },
   {
     "id": 10,
