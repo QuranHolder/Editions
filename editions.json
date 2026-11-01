@@ -479,5 +479,18 @@
     "isImage": true,
     "approxSizeMb": 42,
     "folder": "Asbahanitjwid"
+  },
+    {
+    "id": "mtajwid",
+    "name": "مصحف التجويد الملون - جديد",
+    "englishName": "Tajweed Mushaf - New",
+    "description": "مصحف التجويد بأحكام التلاوة والترميز اللوني لأحكام التجويد",
+    "dialect": "oldmadina",
+    "pagesFrom": 1,
+    "pagesTo": 604,
+    "totalPages": 604,
+    "isImage": true,
+    "approxSizeMb": 112,
+    "folder": "mtajwid"
   }
 ]
