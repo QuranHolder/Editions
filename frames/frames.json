@@ -1,0 +1,894 @@
+[
+  {
+    "id": "madina-official-green",
+    "name": "إطار مصحف المدينة الرسمي (الأخضر والوردي)",
+    "englishName": "Official Madinah Mushaf Frame (Green & Rose)",
+    "description": "الإطار الزخرفي المتجهي الكلاسيكي المطابق لطبعة مجمع الملك فهد بالمدينة المنورة، باللون الأخضر الزمردي مع ميداليات وزهيرات وردية متدرجة في الأركان والجوانب.",
+    "englishDescription": "Authentic vector decorative border matching the King Fahd Complex Madinah Mushaf print, featuring emerald green arabesque scrollwork and radial-gradient pink floral medallions.",
+    "category": "official-vector",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "madina-official-green.svg",
+    "path": "frames/madina-official-green.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/madina-official-green.svg",
+    "sizeBytes": 121956,
+    "dimensions": {
+      "width": 542,
+      "height": 541
+    },
+    "borderImage": {
+      "slice": "30% 30.5%",
+      "repeat": "round",
+      "width": "22px"
+    },
+    "colors": {
+      "primary": "#568633",
+      "secondary": "#d65f9b",
+      "accent": "#66a732",
+      "background": "#c1d1b9"
+    },
+    "tags": ["المدينة", "مجمع الملك فهد", "أخضر", "وردي", "زهري", "رسمي", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "madina-official-blue-gold",
+    "name": "إطار مصحف المدينة (اللازوردي المذهّب)",
+    "englishName": "Madinah Mushaf Frame (Royal Blue & Gold)",
+    "description": "زخرفة مصحف المدينة المنورة المتجهية عالية الدقة بطابع ملكي يجمع بين الأزرق اللازوردي العميق والميداليات الزهرية المذهّبة.",
+    "englishDescription": "High-precision Madinah Mushaf vector border in a royal palette combining deep lapis blue scrollwork with warm golden floral medallions.",
+    "category": "official-vector",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "madina-official-blue-gold.svg",
+    "path": "frames/madina-official-blue-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/madina-official-blue-gold.svg",
+    "sizeBytes": 121956,
+    "dimensions": {
+      "width": 542,
+      "height": 541
+    },
+    "borderImage": {
+      "slice": "30% 30.5%",
+      "repeat": "round",
+      "width": "22px"
+    },
+    "colors": {
+      "primary": "#1d4e89",
+      "secondary": "#c59b27",
+      "accent": "#2b6cb0",
+      "background": "#c3d6eb"
+    },
+    "tags": ["المدينة", "أزرق", "ذهبي", "لازوردي", "ملكي", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "madina-official-teal-coral",
+    "name": "إطار مصحف المدينة (الفيروزي والمرجاني)",
+    "englishName": "Madinah Mushaf Frame (Teal & Coral)",
+    "description": "زخرفة مصحف المدينة المنورة المتجهية باللون الفيروزي المائل للخضرة مع زهيرات مرجانية وعنبرية دافئة.",
+    "englishDescription": "Madinah Mushaf vector border styled in deep emerald-teal with warm coral and amber floral medallions.",
+    "category": "official-vector",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "madina-official-teal-coral.svg",
+    "path": "frames/madina-official-teal-coral.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/madina-official-teal-coral.svg",
+    "sizeBytes": 121956,
+    "dimensions": {
+      "width": 542,
+      "height": 541
+    },
+    "borderImage": {
+      "slice": "30% 30.5%",
+      "repeat": "round",
+      "width": "22px"
+    },
+    "colors": {
+      "primary": "#11696b",
+      "secondary": "#d96b43",
+      "accent": "#178587",
+      "background": "#bce0df"
+    },
+    "tags": ["المدينة", "فيروزي", "مرجاني", "تركواز", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "madina-official-burgundy-gold",
+    "name": "إطار مصحف المدينة (العقيقي المذهّب)",
+    "englishName": "Madinah Mushaf Frame (Burgundy & Antique Gold)",
+    "description": "زخرفة مصحف المدينة المنورة المتجهية باللون العقيقي القرمزي الفاخر مع تذهيب كلاسيكي للميداليات الزهرية على الطراز العثماني.",
+    "englishDescription": "Madinah Mushaf vector border in rich Ottoman burgundy crimson accented with antique gold floral medallions.",
+    "category": "official-vector",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "madina-official-burgundy-gold.svg",
+    "path": "frames/madina-official-burgundy-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/madina-official-burgundy-gold.svg",
+    "sizeBytes": 121956,
+    "dimensions": {
+      "width": 542,
+      "height": 541
+    },
+    "borderImage": {
+      "slice": "30% 30.5%",
+      "repeat": "round",
+      "width": "22px"
+    },
+    "colors": {
+      "primary": "#6e1a2a",
+      "secondary": "#b8860b",
+      "accent": "#8c2438",
+      "background": "#e3c3c9"
+    },
+    "tags": ["المدينة", "عقيقي", "عنابي", "ذهبي", "عثماني", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "madina-official-mahogany",
+    "name": "إطار مصحف المدينة (العنابي الداكن)",
+    "englishName": "Official Madinah Mushaf Frame (Dark Mahogany)",
+    "description": "نسخة هادئة داكنة من إطار مصحف المدينة الرسمي باللون البني العنابي الداكن والبيج الرمادي، مريحة للعين وتناسب القراءة الليلية والورق المعتّق.",
+    "englishDescription": "Subdued dark mahogany and warm taupe variant of the official Madinah Mushaf vector border, ideal for low-glare reading and vintage paper.",
+    "category": "official-vector",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "madina-official-mahogany.svg",
+    "path": "frames/madina-official-mahogany.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/madina-official-mahogany.svg",
+    "sizeBytes": 121734,
+    "dimensions": {
+      "width": 542,
+      "height": 541
+    },
+    "borderImage": {
+      "slice": "30% 30.5%",
+      "repeat": "round",
+      "width": "22px"
+    },
+    "colors": {
+      "primary": "#4d170f",
+      "secondary": "#6e433d",
+      "accent": "#6b3f38",
+      "background": "#bda9a6"
+    },
+    "tags": ["المدينة", "عنابي", "بني", "داكن", "ليلي", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "madina-official-terracotta",
+    "name": "إطار مصحف المدينة (الوردي الترابي)",
+    "englishName": "Official Madinah Mushaf Frame (Soft Terracotta)",
+    "description": "نسخة ناعمة أحادية التدرج من إطار مصحف المدينة الرسمي باللون الوردي الترابي الدافئ، تمنح الصفحة طابعاً هادئاً غير مشتت للنظر.",
+    "englishDescription": "Soft monochromatic terracotta-rose variant of the official Madinah Mushaf vector border for a gentle, distraction-free page frame.",
+    "category": "official-vector",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "madina-official-terracotta.svg",
+    "path": "frames/madina-official-terracotta.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/madina-official-terracotta.svg",
+    "sizeBytes": 121671,
+    "dimensions": {
+      "width": 542,
+      "height": 541
+    },
+    "borderImage": {
+      "slice": "30% 30.5%",
+      "repeat": "round",
+      "width": "22px"
+    },
+    "colors": {
+      "primary": "#cc7466",
+      "secondary": "#d68e83",
+      "accent": "#d58b80",
+      "background": "#eccbc6"
+    },
+    "tags": ["المدينة", "وردي", "ترابي", "هادئ", "ناعم", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "madina-floral",
+    "name": "الإطار الزهري الفيروزي (طراز المدينة)",
+    "englishName": "Turquoise & Rose Floral Border (Madinah Style)",
+    "description": "إطار نباتي مزخرف باللون الفيروزي الأخضر مع زهيرات وردية في الزوايا والأضلاع على طراز مصحف المدينة.",
+    "englishDescription": "Ornate floral arabesque border in turquoise-teal with rose-pink blossoms at corners and midpoints.",
+    "category": "floral-border",
+    "renderMode": "border-image",
+    "format": "png",
+    "file": "madina-floral.png",
+    "path": "frames/madina-floral.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/madina-floral.png",
+    "sizeBytes": 41704,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#2a8c82",
+      "secondary": "#d86b8c",
+      "accent": "#1e6b63",
+      "background": "#e6f4f2"
+    },
+    "tags": ["المدينة", "فيروزي", "وردي", "زهري", "نباتي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "hafs-floral",
+    "name": "الإطار البرونزي والتركواز (طراز حفص)",
+    "englishName": "Bronze & Turquoise Floral Border (Hafs Style)",
+    "description": "إطار نباتي كلاسيكي باللون البني البرونزي الدافئ مطعّم بزهيرات تركوازية سماوية.",
+    "englishDescription": "Classical floral arabesque border in warm bronze-brown accented with sky-turquoise blossoms.",
+    "category": "floral-border",
+    "renderMode": "border-image",
+    "format": "png",
+    "file": "hafs-floral.png",
+    "path": "frames/hafs-floral.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/hafs-floral.png",
+    "sizeBytes": 41704,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#8a5a36",
+      "secondary": "#3898a8",
+      "accent": "#6e4425",
+      "background": "#f5ede6"
+    },
+    "tags": ["حفص", "بني", "برونزي", "تركواز", "نباتي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "shmrly-floral",
+    "name": "الإطار الملكي الأزرق والمذهّب (طراز الشمرلي)",
+    "englishName": "Royal Blue & Gold Floral Border (Shamarly Style)",
+    "description": "إطار نباتي فخم باللون الأزرق الملكي النيلي مع زهيرات وميداليات ذهبية على طراز مصحف الشمرلي.",
+    "englishDescription": "Rich floral arabesque border in royal indigo blue with golden blossoms and corner medallions.",
+    "category": "floral-border",
+    "renderMode": "border-image",
+    "format": "png",
+    "file": "shmrly-floral.png",
+    "path": "frames/shmrly-floral.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/shmrly-floral.png",
+    "sizeBytes": 41375,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#2b4c8c",
+      "secondary": "#c89628",
+      "accent": "#1d3566",
+      "background": "#eaeff8"
+    },
+    "tags": ["الشمرلي", "أزرق", "ذهبي", "نيلي", "نباتي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "tjwid-floral",
+    "name": "الإطار الزيتوني والبنفسجي (طراز التجويد)",
+    "englishName": "Olive Green & Violet Floral Border (Tajweed Style)",
+    "description": "إطار نباتي مميز باللون الأخضر الزيتوني مع زهيرات بنفسجية وأرجوانية على طراز مصحف التجويد.",
+    "englishDescription": "Distinctive floral arabesque border in olive emerald green with violet-purple blossoms.",
+    "category": "floral-border",
+    "renderMode": "border-image",
+    "format": "png",
+    "file": "tjwid-floral.png",
+    "path": "frames/tjwid-floral.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/tjwid-floral.png",
+    "sizeBytes": 41704,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#4d7c2b",
+      "secondary": "#8c4b9e",
+      "accent": "#385e1d",
+      "background": "#eef5e9"
+    },
+    "tags": ["التجويد", "أخضر", "زيتوني", "بنفسجي", "نباتي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "classic-olive",
+    "name": "الإطار الزيتوني المفرّغ الكلاسيكي",
+    "englishName": "Classic Stenciled Olive Green Border",
+    "description": "إطار زخرفي نباتي أحادي اللون بالأخضر الزيتوني الداكن بتفاصيل مفرّغة دقيقة عالية الوضوح.",
+    "englishDescription": "High-contrast monochrome dark olive green stenciled floral arabesque border with fine filigree cutouts.",
+    "category": "floral-border",
+    "renderMode": "border-image",
+    "format": "png",
+    "file": "classic-olive.png",
+    "path": "frames/classic-olive.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/classic-olive.png",
+    "sizeBytes": 143309,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#2d4c1e",
+      "secondary": "#4f772d",
+      "accent": "#1b3011",
+      "background": "#eef4eb"
+    },
+    "tags": ["أخضر", "زيتوني", "كلاسيكي", "أحادي", "مفرغ"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "arabesque-royal-gold",
+    "name": "زخرفة الأرابيسك المتدرجة (الذهبي والأزرق الملكي)",
+    "englishName": "Radial Arabesque Vector Border (Royal Gold & Blue)",
+    "description": "إطار متجهي متدرج الألوان يجمع بين اللون الذهبي الساطع والأزرق الملكي العميق بتشكيلات أرابيسك متناظرة.",
+    "englishDescription": "Scalable vector arabesque border featuring a repeating radial gradient between bright royal gold and deep ultramarine blue.",
+    "category": "arabesque-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "arabesque-royal-gold.svg",
+    "path": "frames/arabesque-royal-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/arabesque-royal-gold.svg",
+    "sizeBytes": 69620,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#2219b2",
+      "secondary": "#ffc300",
+      "accent": "#16107a",
+      "background": "#f5f4fc"
+    },
+    "tags": ["أرابيسك", "ذهبي", "أزرق", "ملكي", "متدرج", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "arabesque-navy-gold",
+    "name": "زخرفة الأرابيسك المتدرجة (الكحلي والذهبي المعتّق)",
+    "englishName": "Radial Arabesque Vector Border (Navy & Antique Gold)",
+    "description": "إطار متجهي كلاسيكي بتدرج هادئ بين الكحلي العميق والذهبي المعتّق.",
+    "englishDescription": "Classical vector arabesque border with a rich radial gradient blending deep navy blue and antique gold.",
+    "category": "arabesque-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "arabesque-navy-gold.svg",
+    "path": "frames/arabesque-navy-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/arabesque-navy-gold.svg",
+    "sizeBytes": 14919,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#0e0874",
+      "secondary": "#a67a00",
+      "accent": "#09054d",
+      "background": "#f4f3f8"
+    },
+    "tags": ["أرابيسك", "كحلي", "ذهبي", "معتق", "متدرج", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "arabesque-crimson-emerald",
+    "name": "زخرفة الأرابيسك المتدرجة (القرمزي والزمردي)",
+    "englishName": "Radial Arabesque Vector Border (Crimson & Emerald)",
+    "description": "إطار متجهي بتدرج لوني تراثي يجمع بين الأحمر القرمزي والأخضر الزمردي.",
+    "englishDescription": "Traditional vector arabesque border blending deep crimson red and emerald green in a repeating radial gradient.",
+    "category": "arabesque-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "arabesque-crimson-emerald.svg",
+    "path": "frames/arabesque-crimson-emerald.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/arabesque-crimson-emerald.svg",
+    "sizeBytes": 14919,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#a60000",
+      "secondary": "#008500",
+      "accent": "#750000",
+      "background": "#f9f2f2"
+    },
+    "tags": ["أرابيسك", "قرمزي", "أحمر", "أخضر", "زمردي", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "arabesque-purple-olive",
+    "name": "زخرفة الأرابيسك المتدرجة (الأرجواني والزيتوني)",
+    "englishName": "Radial Arabesque Vector Border (Plum Purple & Olive)",
+    "description": "إطار متجهي بتدرج لوني بين الأرجواني الغامق والأخضر الزيتوني المشرق.",
+    "englishDescription": "Vector arabesque border featuring a radial gradient between deep plum purple and bright olive green.",
+    "category": "arabesque-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "arabesque-purple-olive.svg",
+    "path": "frames/arabesque-purple-olive.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/arabesque-purple-olive.svg",
+    "sizeBytes": 14919,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#85004b",
+      "secondary": "#679b00",
+      "accent": "#590032",
+      "background": "#f8f2f5"
+    },
+    "tags": ["أرابيسك", "أرجواني", "بنفسجي", "زيتوني", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "arabesque-amber-teal",
+    "name": "زخرفة الأرابيسك المتدرجة (العنبري والفيروزي)",
+    "englishName": "Radial Arabesque Vector Border (Amber & Deep Teal)",
+    "description": "إطار متجهي بتدرج دافئ يجمع بين البني العنبري والأخضر الفيروزي الداكن.",
+    "englishDescription": "Warm vector arabesque border transitioning between burnt amber and deep teal.",
+    "category": "arabesque-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "arabesque-amber-teal.svg",
+    "path": "frames/arabesque-amber-teal.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/arabesque-amber-teal.svg",
+    "sizeBytes": 14919,
+    "dimensions": {
+      "width": 474,
+      "height": 496
+    },
+    "borderImage": {
+      "slice": "82 79",
+      "repeat": "round",
+      "width": "20px"
+    },
+    "colors": {
+      "primary": "#a64a00",
+      "secondary": "#006561",
+      "accent": "#733300",
+      "background": "#f7f4f0"
+    },
+    "tags": ["أرابيسك", "عنبري", "بني", "فيروزي", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "interlace-brown-gold",
+    "name": "إطار الضفيرة الهندسية (البني والرملي)",
+    "englishName": "Geometric Interlace Corner Border (Brown & Sand)",
+    "description": "إطار هندسي متجهي خفيف بضفائر متشابكة وأركان مزخرفة باللونين البني الدافئ والبيج الرملي.",
+    "englishDescription": "Lightweight geometric interlace vector border with ornate corner knots in warm brown and sandy gold.",
+    "category": "interlace-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "interlace-brown-gold.svg",
+    "path": "frames/interlace-brown-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/interlace-brown-gold.svg",
+    "sizeBytes": 18481,
+    "dimensions": {
+      "width": 152,
+      "height": 152
+    },
+    "borderImage": {
+      "slice": "30%",
+      "repeat": "round",
+      "width": "18px"
+    },
+    "colors": {
+      "primary": "#735032",
+      "secondary": "#cca888",
+      "accent": "#543a24",
+      "background": "#f7f3ef"
+    },
+    "tags": ["هندسي", "ضفيرة", "بني", "رملي", "ذهبي", "خفيف", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "interlace-indigo-rose",
+    "name": "إطار الضفيرة الهندسية (النيلي والأرجواني)",
+    "englishName": "Geometric Interlace Corner Border (Indigo & Mauve)",
+    "description": "إطار هندسي متجهي بضفائر وأركان متداخلة باللونين النيلي الهادئ والوردي الأرجواني.",
+    "englishDescription": "Geometric interlace vector border with woven corner medallions in muted indigo and dusty mauve.",
+    "category": "interlace-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "interlace-indigo-rose.svg",
+    "path": "frames/interlace-indigo-rose.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/interlace-indigo-rose.svg",
+    "sizeBytes": 18481,
+    "dimensions": {
+      "width": 152,
+      "height": 152
+    },
+    "borderImage": {
+      "slice": "30%",
+      "repeat": "round",
+      "width": "18px"
+    },
+    "colors": {
+      "primary": "#4e4e8e",
+      "secondary": "#ad7fa8",
+      "accent": "#38386b",
+      "background": "#f3f3f9"
+    },
+    "tags": ["هندسي", "ضفيرة", "نيلي", "أرجواني", "خفيف", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "interlace-green-gold",
+    "name": "إطار الضفيرة الهندسية (الأخضر والذهبي)",
+    "englishName": "Geometric Interlace Corner Border (Green & Gold)",
+    "description": "إطار هندسي متجهي بضفائر وأركان إسلامية باللونين الأخضر الروضي والذهبي الخردلي.",
+    "englishDescription": "Islamic geometric interlace vector border with corner medallions in meadow green and mustard gold.",
+    "category": "interlace-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "interlace-green-gold.svg",
+    "path": "frames/interlace-green-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/interlace-green-gold.svg",
+    "sizeBytes": 18481,
+    "dimensions": {
+      "width": 152,
+      "height": 152
+    },
+    "borderImage": {
+      "slice": "30%",
+      "repeat": "round",
+      "width": "18px"
+    },
+    "colors": {
+      "primary": "#4b8a3b",
+      "secondary": "#bc911c",
+      "accent": "#356629",
+      "background": "#f1f7ef"
+    },
+    "tags": ["هندسي", "ضفيرة", "أخضر", "ذهبي", "خفيف", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "interlace-navy-gold",
+    "name": "إطار الضفيرة الهندسية (الكحلي والذهبي)",
+    "englishName": "Geometric Interlace Corner Border (Navy & Gold)",
+    "description": "إطار هندسي متجهي بضفائر وأركان كلاسيكية باللونين الأزرق الكحلي والذهبي.",
+    "englishDescription": "Classical geometric interlace vector border in deep navy blue and gold.",
+    "category": "interlace-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "interlace-navy-gold.svg",
+    "path": "frames/interlace-navy-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/interlace-navy-gold.svg",
+    "sizeBytes": 18409,
+    "dimensions": {
+      "width": 152,
+      "height": 152
+    },
+    "borderImage": {
+      "slice": "30%",
+      "repeat": "round",
+      "width": "18px"
+    },
+    "colors": {
+      "primary": "#0e0874",
+      "secondary": "#a67a00",
+      "accent": "#08044a",
+      "background": "#f2f1f8"
+    },
+    "tags": ["هندسي", "ضفيرة", "كحلي", "أزرق", "ذهبي", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "interlace-crimson-emerald",
+    "name": "إطار الضفيرة الهندسية (القرمزي والأخضر)",
+    "englishName": "Geometric Interlace Corner Border (Crimson & Green)",
+    "description": "إطار هندسي متجهي بضفائر وأركان متقابلة باللونين الأحمر القرمزي والأخضر.",
+    "englishDescription": "Geometric interlace vector border contrasting crimson red corners with emerald green interlace.",
+    "category": "interlace-border",
+    "renderMode": "border-image",
+    "format": "svg",
+    "file": "interlace-crimson-emerald.svg",
+    "path": "frames/interlace-crimson-emerald.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/interlace-crimson-emerald.svg",
+    "sizeBytes": 18409,
+    "dimensions": {
+      "width": 152,
+      "height": 152
+    },
+    "borderImage": {
+      "slice": "30%",
+      "repeat": "round",
+      "width": "18px"
+    },
+    "colors": {
+      "primary": "#a60000",
+      "secondary": "#008500",
+      "accent": "#730000",
+      "background": "#f8f2f2"
+    },
+    "tags": ["هندسي", "ضفيرة", "قرمزي", "أحمر", "أخضر", "متجهي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "lace-andalusian-blue",
+    "name": "إطار الصفحة الكاملة الأندلسي المخرّم (الأزرق)",
+    "englishName": "Andalusian Blue Filigree Full-Page Frame",
+    "description": "إطار صفحة كاملة بتخريمات مغربية وأندلسية دقيقة باللون الأزرق السماوي والملكي على طراز المصاحف المغاربية وطبعة قالون التراثية.",
+    "englishDescription": "Full-page Maghrebi/Andalusian lace filigree frame in royal and sky blue on the traditional Qaloon Mushaf style.",
+    "category": "full-page",
+    "renderMode": "full-page",
+    "format": "png",
+    "file": "lace-andalusian-blue.png",
+    "path": "frames/lace-andalusian-blue.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/lace-andalusian-blue.png",
+    "sizeBytes": 154831,
+    "dimensions": {
+      "width": 1040,
+      "height": 1530
+    },
+    "contentInset": {
+      "top": "4%",
+      "right": "4%",
+      "bottom": "5%",
+      "left": "4%"
+    },
+    "colors": {
+      "primary": "#1d5fa8",
+      "secondary": "#5ba4cf",
+      "accent": "#123d6e",
+      "background": "#eef6fc"
+    },
+    "tags": ["صفحة كاملة", "أندلسي", "مغربي", "قالون", "أزرق", "مخرم"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "lace-madina-teal",
+    "name": "إطار الصفحة الكاملة المخرّم (الفيروزي)",
+    "englishName": "Turquoise Teal Filigree Full-Page Frame",
+    "description": "إطار صفحة كاملة بتخريمات وزخارف نباتية متصلة باللون الفيروزي الهادئ.",
+    "englishDescription": "Full-page ornate lace filigree frame in soothing turquoise-teal.",
+    "category": "full-page",
+    "renderMode": "full-page",
+    "format": "png",
+    "file": "lace-madina-teal.png",
+    "path": "frames/lace-madina-teal.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/lace-madina-teal.png",
+    "sizeBytes": 154786,
+    "dimensions": {
+      "width": 1040,
+      "height": 1530
+    },
+    "contentInset": {
+      "top": "4%",
+      "right": "4%",
+      "bottom": "5%",
+      "left": "4%"
+    },
+    "colors": {
+      "primary": "#1b7a78",
+      "secondary": "#4db6ac",
+      "accent": "#104f4e",
+      "background": "#ebfaf9"
+    },
+    "tags": ["صفحة كاملة", "فيروزي", "المدينة", "مخرم"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "lace-shmrly-ornate",
+    "name": "إطار الصفحة الكاملة المصري المزخرف (الشمرلي)",
+    "englishName": "Traditional Egyptian Ornate Full-Page Frame (Shamarly)",
+    "description": "إطار صفحة كاملة غني بالتفاصيل والألوان التراثية (الأزرق والعنابي والذهبي) على طراز المصاحف المصرية ومصحف الشمرلي.",
+    "englishDescription": "Rich multi-colored full-page frame in royal blue, crimson, and gold on the traditional Egyptian Shamarly Mushaf style.",
+    "category": "full-page",
+    "renderMode": "full-page",
+    "format": "png",
+    "file": "lace-shmrly-ornate.png",
+    "path": "frames/lace-shmrly-ornate.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/lace-shmrly-ornate.png",
+    "sizeBytes": 158011,
+    "dimensions": {
+      "width": 1040,
+      "height": 1530
+    },
+    "contentInset": {
+      "top": "4%",
+      "right": "4%",
+      "bottom": "5%",
+      "left": "4%"
+    },
+    "colors": {
+      "primary": "#264685",
+      "secondary": "#9e2a2b",
+      "accent": "#c9972c",
+      "background": "#f7f4eb"
+    },
+    "tags": ["صفحة كاملة", "الشمرلي", "مصري", "ملون", "تراثي"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "shmrly-illuminated-hd",
+    "name": "إطار الشمرلي المذهّب فائق الدقة (HD)",
+    "englishName": "High-Definition Illuminated Shamarly Full-Page Frame",
+    "description": "النسخة الأصلية فائقة الدقة لإطار مصحف الشمرلي المذهّب بكامل تفاصيله اللونية الدقيقة وزخارفه الجانبية والعلوية.",
+    "englishDescription": "Original high-definition illuminated full-page Shamarly Mushaf frame preserving full-color floral and geometric gilding.",
+    "category": "full-page",
+    "renderMode": "full-page",
+    "format": "png",
+    "file": "shmrly-illuminated-hd.png",
+    "path": "frames/shmrly-illuminated-hd.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/shmrly-illuminated-hd.png",
+    "sizeBytes": 719336,
+    "dimensions": {
+      "width": 1040,
+      "height": 1530
+    },
+    "contentInset": {
+      "top": "4%",
+      "right": "4%",
+      "bottom": "5%",
+      "left": "4%"
+    },
+    "colors": {
+      "primary": "#1f3c73",
+      "secondary": "#b8860b",
+      "accent": "#8f2424",
+      "background": "#faf6ed"
+    },
+    "tags": ["صفحة كاملة", "الشمرلي", "مذهب", "عالي الدقة", "فخم"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "classic-ruled-brown",
+    "name": "إطار المخطوطات المجدول البسيط (البني)",
+    "englishName": "Simple Manuscript Double-Ruled Frame (Brown)",
+    "description": "إطار كلاسيكي هادئ بخطوط مزدوجة بنية وخرطوشتين في الأعلى والأسفل على طراز المخطوطات والمصاحف القديمة البسيطة.",
+    "englishDescription": "Minimalist classical double-ruled brown manuscript frame with top and bottom cartouches for distraction-free reading.",
+    "category": "full-page",
+    "renderMode": "full-page",
+    "format": "png",
+    "file": "classic-ruled-brown.png",
+    "path": "frames/classic-ruled-brown.png",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/classic-ruled-brown.png",
+    "sizeBytes": 25018,
+    "dimensions": {
+      "width": 1190,
+      "height": 1684
+    },
+    "contentInset": {
+      "top": "4%",
+      "right": "4%",
+      "bottom": "5%",
+      "left": "4%"
+    },
+    "colors": {
+      "primary": "#5c3a21",
+      "secondary": "#8c6239",
+      "accent": "#3d2514",
+      "background": "#fbf7f0"
+    },
+    "tags": ["صفحة كاملة", "مجدول", "بسيط", "مخطوطات", "بني", "هادئ"],
+    "isBuiltIn": false
+  },
+  {
+    "id": "wathkro-madina-emerald",
+    "name": "الإطار الهندسي المدمج (أخضر المدينة والذهبي)",
+    "englishName": "Built-in Geometric Frame (Madinah Emerald & Gold)",
+    "description": "الإطار الهندسي المدمج في تطبيق «واذكروا» بنقوش السلسلة والنجوم الثمانية الإسلامية في الزوايا باللون الأخضر الزمردي والذهبي.",
+    "englishDescription": "Built-in geometric frame featuring chain-link borders and 8-pointed Rub el Hizb corner stars in Madinah emerald and gold.",
+    "category": "classic-geometric",
+    "renderMode": "builtin-svg",
+    "builtInStyle": "madina",
+    "format": "svg",
+    "file": "wathkro-madina-emerald.svg",
+    "path": "frames/wathkro-madina-emerald.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/wathkro-madina-emerald.svg",
+    "sizeBytes": 3378,
+    "dimensions": {
+      "width": 600,
+      "height": 840
+    },
+    "colors": {
+      "primary": "#14532d",
+      "secondary": "#c59b27",
+      "accent": "#15803d",
+      "background": "#e9f5ec"
+    },
+    "tags": ["واذكروا", "هندسي", "مدمج", "أخضر", "ذهبي", "المدينة"],
+    "isBuiltIn": true
+  },
+  {
+    "id": "wathkro-shmrly-gold",
+    "name": "الإطار الهندسي المدمج (الذهبي الكلاسيكي)",
+    "englishName": "Built-in Geometric Frame (Classical Amber Gold)",
+    "description": "الإطار الهندسي المدمج في تطبيق «واذكروا» بنقوش السلسلة والنجوم الثمانية الإسلامية باللون الذهبي والعنبري الدافئ.",
+    "englishDescription": "Built-in geometric frame featuring chain-link borders and 8-pointed corner stars in warm classical amber and gold.",
+    "category": "classic-geometric",
+    "renderMode": "builtin-svg",
+    "builtInStyle": "shmrly",
+    "format": "svg",
+    "file": "wathkro-shmrly-gold.svg",
+    "path": "frames/wathkro-shmrly-gold.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/wathkro-shmrly-gold.svg",
+    "sizeBytes": 3375,
+    "dimensions": {
+      "width": 600,
+      "height": 840
+    },
+    "colors": {
+      "primary": "#78350f",
+      "secondary": "#d97706",
+      "accent": "#b45309",
+      "background": "#fef3c7"
+    },
+    "tags": ["واذكروا", "هندسي", "مدمج", "ذهبي", "الشمرلي"],
+    "isBuiltIn": true
+  },
+  {
+    "id": "wathkro-heritage-amber",
+    "name": "الإطار الهندسي المدمج (البني التراثي)",
+    "englishName": "Built-in Geometric Frame (Heritage Brown & Bronze)",
+    "description": "الإطار الهندسي المدمج في تطبيق «واذكروا» بنقوش السلسلة والنجوم الثمانية الإسلامية باللون البني التراثي والبرونزي المعتّق.",
+    "englishDescription": "Built-in geometric frame featuring chain-link borders and 8-pointed corner stars in heritage brown and antique bronze.",
+    "category": "classic-geometric",
+    "renderMode": "builtin-svg",
+    "builtInStyle": "oldmadina",
+    "format": "svg",
+    "file": "wathkro-heritage-amber.svg",
+    "path": "frames/wathkro-heritage-amber.svg",
+    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/wathkro-heritage-amber.svg",
+    "sizeBytes": 3378,
+    "dimensions": {
+      "width": 600,
+      "height": 840
+    },
+    "colors": {
+      "primary": "#5c2d0c",
+      "secondary": "#a16207",
+      "accent": "#854d0e",
+      "background": "#f5ebe0"
+    },
+    "tags": ["واذكروا", "هندسي", "مدمج", "بني", "تراثي", "معتق"],
+    "isBuiltIn": true
+  }
+]
