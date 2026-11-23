@@ -492,5 +492,18 @@
     "isImage": true,
     "approxSizeMb": 112,
     "folder": "mtajwid"
+  },
+  {
+    "id": "tajweed_uthmani",
+    "name": "مصحف التجويد بالرسم العثماني",
+    "englishName": "Tajweed Uthmani Mushaf",
+    "description": "مصحف التجويد الملون بالرسم العثماني وتخطيط مصحف المدينة المنورة (٦٠٤ صفحة)",
+    "dialect": "madina",
+    "pagesFrom": 1,
+    "pagesTo": 604,
+    "totalPages": 604,
+    "isImage": true,
+    "approxSizeMb": 95,
+    "folder": "tajweed_uthmani"
   }
 ]

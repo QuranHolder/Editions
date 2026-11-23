@@ -747,38 +747,6 @@
     "isBuiltIn": false
   },
   {
-    "id": "shmrly-illuminated-hd",
-    "name": "الشمرلي المذهّب (عالي الدقة)",
-    "englishName": "Illuminated Shamarly (HD)",
-    "description": "إطار مصحف الشمرلي المذهّب بدقة عالية.",
-    "englishDescription": "High-definition gilded Shamarly frame.",
-    "category": "full-page",
-    "renderMode": "full-page",
-    "format": "png",
-    "file": "shmrly-illuminated-hd.png",
-    "path": "frames/shmrly-illuminated-hd.png",
-    "url": "https://raw.githubusercontent.com/QuranHolder/Editions/main/frames/shmrly-illuminated-hd.png",
-    "sizeBytes": 719336,
-    "dimensions": {
-      "width": 1040,
-      "height": 1530
-    },
-    "contentInset": {
-      "top": "4%",
-      "right": "4%",
-      "bottom": "5%",
-      "left": "4%"
-    },
-    "colors": {
-      "primary": "#1f3c73",
-      "secondary": "#b8860b",
-      "accent": "#8f2424",
-      "background": "#faf6ed"
-    },
-    "tags": ["صفحة كاملة", "الشمرلي", "مذهب"],
-    "isBuiltIn": false
-  },
-  {
     "id": "classic-ruled-brown",
     "name": "مجدول كلاسيكي بني",
     "englishName": "Classic Ruled Brown",
