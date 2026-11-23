@@ -10,7 +10,7 @@
   {
     "id": 27,
     "name": "محمود خليل الحصري",
-    "title": "مصحف الإذاعة",
+    "title": "مصحف الإذاعة (قصر المنفصل)",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://archive.org/download/wathkro-quran-husary-izaat-ayah-opus",
     "format": "opus",
@@ -32,7 +32,7 @@
     "title": "المصحف المرتل",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://archive.org/download/wathkro-quran-mostafa-ismail-ayah-opus",
-    "order": 4,
+    "order": 5,
     "isEnabled": true,
     "format": "opus"
   },
@@ -42,7 +42,7 @@
     "title": "المصحف المرتل",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Abdul_Basit_Murattal_192kbps",
-    "order": 5,
+    "order": 6,
     "isEnabled": true
   },
   {
@@ -50,7 +50,7 @@
     "name": "محمود علي البنا",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/mahmoud_ali_al_banna_32kbps",
-    "order": 6,
+    "order": 7,
     "isEnabled": true
   },
   {
@@ -58,7 +58,7 @@
     "name": "محمود خليل الحصري",
     "rewaya": "قالون عن نافع",
     "urlOnline": "https://wursha-backup.github.io/hosari-ezaa/qless",
-    "order": 7,
+    "order": 8,
     "isEnabled": true
   },
   {
@@ -66,7 +66,7 @@
     "name": "محمود خليل الحصري",
     "rewaya": "ورش عن نافع",
     "urlOnline": "https://wursha-backup.github.io/hosari-ezaa/warsh",
-    "order": 8,
+    "order": 9,
     "isEnabled": true
   },
   {
@@ -74,7 +74,7 @@
     "name": "عبد الباسط عبد الصمد",
     "rewaya": "ورش عن نافع",
     "urlOnline": "https://verse.mp3quran.net/data/warsh_Abdul_Basit_128kbps",
-    "order": 9,
+    "order": 10,
     "isEnabled": true
   },
   {
@@ -83,7 +83,7 @@
     "title": "المصحف المعلم",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Husary_Muallim_128kbps",
-    "order": 10,
+    "order": 11,
     "isEnabled": true
   },
   {
@@ -92,7 +92,7 @@
     "title": "مُجوّد",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Husary_Mujawwad_64kbps",
-    "order": 11,
+    "order": 12,
     "isEnabled": true
   },
   {
@@ -101,7 +101,7 @@
     "title": "مُجوّد",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Abdul_Basit_Mujawwad_128kbps",
-    "order": 12,
+    "order": 13,
     "isEnabled": true
   },
   {
@@ -109,7 +109,7 @@
     "name": "محمد محمود الطبلاوي",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Mohammad_al_Tablaway_64kbps",
-    "order": 13,
+    "order": 14,
     "isEnabled": true
   },
   {
@@ -117,7 +117,7 @@
     "name": "أحمد علي العجمي",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Ahmed_ibn_Ali_al-Ajamy_64kbps_QuranExplorer.Com",
-    "order": 14,
+    "order": 15,
     "isEnabled": true
   },
   {
@@ -125,7 +125,7 @@
     "name": "أيمن رشدي سويد",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://everyayah.com/data/Ayman_Sowaid_64kbps",
-    "order": 15,
+    "order": 16,
     "isEnabled": true
   },
   {
@@ -133,7 +133,7 @@
     "name": "خليفة الطنيجي",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/khalefa_al_tunaiji_64kbps",
-    "order": 16,
+    "order": 17,
     "isEnabled": true
   },
   {
@@ -141,7 +141,7 @@
     "name": "فارس عباد",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Fares_Abbad_64kbps",
-    "order": 17,
+    "order": 18,
     "isEnabled": true
   },
   {
@@ -149,7 +149,7 @@
     "name": "سعود الشريم",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Saood_ash-Shuraym_64kbps",
-    "order": 18,
+    "order": 19,
     "isEnabled": true
   },
   {
@@ -157,7 +157,7 @@
     "name": "أبو بكر الشاطري",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Abu_Bakr_Ash-Shaatree_64kbps",
-    "order": 19,
+    "order": 20,
     "isEnabled": true
   },
   {
@@ -165,7 +165,7 @@
     "name": "علي بن عبد الرحمن الحذيفي",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Hudhaify_64kbps",
-    "order": 20,
+    "order": 21,
     "isEnabled": true
   },
   {
@@ -173,7 +173,7 @@
     "name": "محمد أيوب",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Muhammad_Ayyoub_64kbps",
-    "order": 21,
+    "order": 22,
     "isEnabled": true
   },
   {
@@ -181,7 +181,7 @@
     "name": "محمد جبريل",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Muhammad_Jibreel_64kbps",
-    "order": 22,
+    "order": 23,
     "isEnabled": true
   },
   {
@@ -189,7 +189,7 @@
     "name": "مشاري العفاسي",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Alafasy_64kbps",
-    "order": 23,
+    "order": 24,
     "isEnabled": true
   },
   {
@@ -197,7 +197,7 @@
     "name": "ناصر القطامي",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Nasser_Alqatami_128kbps",
-    "order": 24,
+    "order": 25,
     "isEnabled": true
   },
   {
@@ -205,7 +205,7 @@
     "name": "ياسر الدوسري",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Yasser_Ad-Dussary_128kbps",
-    "order": 25,
+    "order": 26,
     "isEnabled": true
   },
   {
@@ -213,7 +213,7 @@
     "name": "إبراهيم الدوسري",
     "rewaya": "ورش عن نافع",
     "urlOnline": "https://verse.mp3quran.net/data/warsh_ibrahim_aldosary_128kbps",
-    "order": 26,
+    "order": 27,
     "isEnabled": true
   },
   {
@@ -221,7 +221,7 @@
     "name": "ياسين الجزائري",
     "rewaya": "ورش عن نافع",
     "urlOnline": "https://verse.mp3quran.net/data/warsh_yassin_al_jazaery_64kbps",
-    "order": 27,
+    "order": 28,
     "isEnabled": true
   },
   {
@@ -229,7 +229,7 @@
     "name": "عبدالله بصفر",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://verse.mp3quran.net/data/Abdullah_Basfar_64kbps",
-    "order": 28,
+    "order": 29,
     "isEnabled": true
   },
   {
@@ -237,7 +237,7 @@
     "name": "ياسر سلامة",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://quran.ksu.edu.sa/ayat/mp3/Yaser_Salamah_128kbps",
-    "order": 29,
+    "order": 30,
     "isEnabled": true
   },
   {
@@ -246,7 +246,7 @@
     "title": "English Translation",
     "rewaya": "ترجمة إنجليزية",
     "urlOnline": "https://quran.ksu.edu.sa/ayat/mp3/English_Walk",
-    "order": 30,
+    "order": 31,
     "isEnabled": true
   },
   {
@@ -255,7 +255,7 @@
     "title": "المصحف المعلم",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://quran.ksu.edu.sa/ayat/mp3/Minshawy_Teacher_128kbps",
-    "order": 31,
+    "order": 32,
     "isEnabled": true
   },
   {
@@ -264,7 +264,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "حفص عن عاصم",
     "urlOnline": "https://sound.quraat.info/ATolbaHfs",
-    "order": 32,
+    "order": 33,
     "isEnabled": true
   },
   {
@@ -273,7 +273,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "العشر الكبرى",
     "urlOnline": "https://sound.quraat.info/A-Tolba",
-    "order": 33,
+    "order": 34,
     "isEnabled": true
   },
   {
@@ -282,7 +282,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "بيان الصغرى",
     "urlOnline": "https://sound.quraat.info/Saleh",
-    "order": 34,
+    "order": 35,
     "isEnabled": true
   },
   {
@@ -291,7 +291,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "العشر الصغرى",
     "urlOnline": "https://sound.quraat.info/Taha",
-    "order": 35,
+    "order": 36,
     "isEnabled": true
   },
   {
@@ -300,7 +300,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "العشر الكبرى",
     "urlOnline": "https://sound.quraat.info/Hany",
-    "order": 36,
+    "order": 37,
     "isEnabled": true
   },
   {
@@ -309,7 +309,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "العشر الصغرى",
     "urlOnline": "https://sound.quraat.info/Habashi",
-    "order": 37,
+    "order": 38,
     "isEnabled": true
   },
   {
@@ -318,7 +318,7 @@
     "title": "الجزء الأول",
     "rewaya": "بيان الكبرى",
     "urlOnline": "https://sound.quraat.info/HamadaK",
-    "order": 38,
+    "order": 39,
     "isEnabled": true
   },
   {
@@ -327,7 +327,7 @@
     "title": "تعليمي الصغرى",
     "rewaya": "بيان الصغرى",
     "urlOnline": "https://sound.quraat.info/HamadaS",
-    "order": 39,
+    "order": 40,
     "isEnabled": true
   },
   {
@@ -336,7 +336,7 @@
     "title": "بيان قراء الدرة",
     "rewaya": "بيان الصغرى",
     "urlOnline": "https://sound.quraat.info/Dorra",
-    "order": 40,
+    "order": 41,
     "isEnabled": true
   },
   {
@@ -345,7 +345,7 @@
     "title": "بيان أوجه قالون",
     "rewaya": "بيان قالون",
     "urlOnline": "https://sound.quraat.info/Qalon",
-    "order": 41,
+    "order": 42,
     "isEnabled": true
   },
   {
@@ -354,7 +354,7 @@
     "title": "بيان أوجه ورش",
     "rewaya": "بيان ورش",
     "urlOnline": "https://sound.quraat.info/Warsh",
-    "order": 42,
+    "order": 43,
     "isEnabled": true
   },
   {
@@ -363,7 +363,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "شعبة عن عاصم",
     "urlOnline": "https://sound.quraat.info/AbdulHakim",
-    "order": 43,
+    "order": 44,
     "isEnabled": true
   },
   {
@@ -372,7 +372,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "خلف عن حمزة",
     "urlOnline": "https://sound.quraat.info/ahmedsamir",
-    "order": 44,
+    "order": 45,
     "isEnabled": true
   },
   {
@@ -381,7 +381,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "قالون عن نافع",
     "urlOnline": "https://sound.quraat.info/HuzaifyQalon",
-    "order": 45,
+    "order": 46,
     "isEnabled": true
   },
   {
@@ -390,7 +390,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "الدوري عن أبي عمرو",
     "urlOnline": "https://sound.quraat.info/MuftahDoriAmr",
-    "order": 46,
+    "order": 47,
     "isEnabled": true
   },
   {
@@ -399,7 +399,7 @@
     "title": "المصحف كاملاً",
     "rewaya": "السوسي عن أبي عمرو",
     "urlOnline": "https://sound.quraat.info/RashidSosi",
-    "order": 47,
+    "order": 48,
     "isEnabled": true
   },
   {
@@ -408,7 +408,268 @@
     "title": "المصحف كاملاً",
     "rewaya": "الأصبهاني عن ورش",
     "urlOnline": "https://sound.quraat.info/almaghrbi",
-    "order": 48,
+    "order": 49,
+    "isEnabled": true
+  },
+  {
+    "id": 69,
+    "name": "محمد صديق المنشاوي",
+    "title": "المصحف المرتل الجديد",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://archive.org/download/wathkro-quran-minshawy-murattal-new-opus",
+    "format": "opus",
+    "audioType": "surah",
+    "order": 4,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_minshawi_mujawwad",
+    "name": "محمد صديق المنشاوي",
+    "title": "مُجوّد",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Minshawy_Mujawwad_192kbps",
+    "order": 13.5,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_sudais",
+    "name": "عبد الرحمن السديس",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Abdurrahmaan_As-Sudais_192kbps",
+    "order": 14.5,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_ghamadi",
+    "name": "سعد الغامدي",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Ghamadi_40kbps",
+    "order": 14.6,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_maher",
+    "name": "ماهر المعيقلي",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/MaherAlMuaiqly128kbps",
+    "order": 14.7,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_ali_jaber",
+    "name": "علي جابر",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Ali_Jaber_64kbps",
+    "order": 21.5,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_hani_rifai",
+    "name": "هاني الرفاعي",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Hani_Rifai_192kbps",
+    "order": 26.1,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_juhaynee",
+    "name": "عبد الله عواد الجهني",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Abdullaah_3awwaad_Al-Juhaynee_128kbps",
+    "order": 26.2,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_salah_budair",
+    "name": "صلاح البدير",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Salah_Al_Budair_128kbps",
+    "order": 26.3,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_muhsin_qasim",
+    "name": "عبد المحسن القاسم",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Muhsin_Al_Qasim_192kbps",
+    "order": 26.4,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_salah_bukhatir",
+    "name": "صلاح بو خاطر",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Salaah_AbdulRahman_Bukhatir_128kbps",
+    "order": 26.5,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_qahtani",
+    "name": "خالد القحطاني",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Khaalid_Abdullaah_al-Qahtaanee_192kbps",
+    "order": 26.6,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_ibrahim_akhdar",
+    "name": "إبراهيم الأخضر",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Ibrahim_Akhdar_32kbps",
+    "order": 26.7,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_matroud",
+    "name": "عبد الله المطرود",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Abdullah_Matroud_128kbps",
+    "order": 26.8,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_neana",
+    "name": "أحمد نعينع",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Ahmed_Neana_128kbps",
+    "order": 26.9,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_abdulkareem",
+    "name": "محمد عبد الكريم",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Muhammad_AbdulKareem_128kbps",
+    "order": 29.1,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_suesy",
+    "name": "علي حجاج السويسي",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Ali_Hajjaj_AlSuesy_128kbps",
+    "order": 29.2,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_sahl_yassin",
+    "name": "سهل ياسين",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Sahl_Yassin_128kbps",
+    "order": 29.3,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_alaqimy",
+    "name": "أكرم العلاقمي",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Akram_AlAlaqimy_128kbps",
+    "order": 29.4,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_aziz_alili",
+    "name": "عزيز عليلي",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/aziz_alili_128kbps",
+    "order": 29.5,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_karim_mansoori",
+    "name": "كريم منصوري",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Karim_Mansoori_40kbps",
+    "order": 29.6,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_parhizgar",
+    "name": "شهريار برهيزكار",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://everyayah.com/data/Parhizgar_48kbps",
+    "order": 29.7,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_urdu_shamshad",
+    "name": "شمشاد علي خان",
+    "title": "ترجمة أردية",
+    "rewaya": "ترجمة أردية",
+    "urlOnline": "https://everyayah.com/data/translations/urdu_shamshad_ali_khan_46kbps",
+    "order": 31.5,
+    "isEnabled": true
+  },
+  {
+    "id": "ksu_tunaiji_teacher",
+    "name": "خليفة الطنيجي",
+    "title": "المصحف المعلم (آخر 5 أجزاء)",
+    "rewaya": "حفص عن عاصم",
+    "urlOnline": "https://quran.ksu.edu.sa/ayat/mp3/khaleefa_96kbps",
+    "order": 17.5,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_basfar_walk",
+    "name": "عبد الله بصفر وإبراهيم ووك",
+    "title": "عربي + إنجليزي",
+    "rewaya": "ترجمة إنجليزية",
+    "urlOnline": "https://everyayah.com/data/MultiLanguage/Basfar_Walk_192kbps",
+    "order": 31.2,
+    "isEnabled": true
+  },
+  {
+    "id": "ksu_fr_leclerc",
+    "name": "يوسف لوكليرك",
+    "title": "ترجمة فرنسية",
+    "rewaya": "ترجمة فرنسية",
+    "urlOnline": "https://quran.ksu.edu.sa/ayat/mp3/fr.leclerc_128kbs",
+    "order": 31.3,
+    "isEnabled": true
+  },
+  {
+    "id": "alq_ru_kuliev",
+    "name": "إلمير كولييف",
+    "title": "ترجمة روسية",
+    "rewaya": "ترجمة روسية",
+    "urlOnline": "https://cdn.islamic.network/quran/audio/128/ru.kuliev-audio",
+    "order": 31.4,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_urdu_farhat",
+    "name": "فرحت هاشمي",
+    "title": "ترجمة أردية (كلمة بكلمة)",
+    "rewaya": "ترجمة أردية",
+    "urlOnline": "https://everyayah.com/data/translations/urdu_farhat_hashmi",
+    "order": 31.6,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_bs_korkut",
+    "name": "بسيم كوركوت",
+    "title": "ترجمة بوسنية",
+    "rewaya": "ترجمة بوسنية",
+    "urlOnline": "https://everyayah.com/data/translations/besim_korkut_ajet_po_ajet",
+    "order": 31.7,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_az_balayev",
+    "name": "رسيم بالاييف",
+    "title": "ترجمة أذربيجانية",
+    "rewaya": "ترجمة أذربيجانية",
+    "urlOnline": "https://everyayah.com/data/translations/azerbaijani/balayev",
+    "order": 31.8,
+    "isEnabled": true
+  },
+  {
+    "id": "ea_fa_fooladvand",
+    "name": "فولادوند وهدايت فر",
+    "title": "ترجمة فارسية",
+    "rewaya": "ترجمة فارسية",
+    "urlOnline": "https://everyayah.com/data/translations/Fooladvand_Hedayatfar_40Kbps",
+    "order": 31.9,
     "isEnabled": true
   }
 ]
