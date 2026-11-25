@@ -1,0 +1,931 @@
+{
+  "schemaVersion": 2,
+  "edition": "shmrly",
+  "name": "مصحف الشمرلي",
+  "yOrigin": "top",
+  "coordinates": {
+    "x": "left edge ratio (0..1)",
+    "y": "top edge ratio (0..1)",
+    "w": "width ratio (0..1)",
+    "h": "height ratio (0..1)"
+  },
+  "specialWordsNo": {
+    "999": "ayah_end_medallion",
+    "1000": "sajdah_sign",
+    "1001": "rub_hizb_sign"
+  },
+  "pagesFrom": 2,
+  "pagesTo": 522,
+  "totalPages": 521,
+  "totalTokens": 83927,
+  "qaSummary": {
+    "medallions": "6235/6236",
+    "rubs": "239/240",
+    "sajdahs": "15/15",
+    "flaggedPagesCount": 349
+  },
+  "flaggedPages": [
+    {
+      "page": 392,
+      "reasons": [
+        "rubs 0/1",
+        "mean_cost=2.71"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 8,
+        "meds_matched": 8,
+        "rubs_expected": 1,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 2.71,
+        "max_dp_cost": 6.795
+      }
+    },
+    {
+      "page": 2,
+      "reasons": [
+        "meds 6/7",
+        "mean_cost=2.614"
+      ],
+      "qa": {
+        "lines_detected": 7,
+        "db_lines": 8,
+        "meds_expected": 7,
+        "meds_matched": 6,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 2.614,
+        "max_dp_cost": 7.276
+      }
+    },
+    {
+      "page": 415,
+      "reasons": [
+        "mean_cost=4.934"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 16,
+        "meds_matched": 16,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.934,
+        "max_dp_cost": 20.061
+      }
+    },
+    {
+      "page": 275,
+      "reasons": [
+        "mean_cost=4.719"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 15,
+        "meds_matched": 15,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.719,
+        "max_dp_cost": 18.026
+      }
+    },
+    {
+      "page": 517,
+      "reasons": [
+        "mean_cost=4.65"
+      ],
+      "qa": {
+        "lines_detected": 11,
+        "db_lines": 9,
+        "meds_expected": 18,
+        "meds_matched": 18,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.65,
+        "max_dp_cost": 37.801
+      }
+    },
+    {
+      "page": 430,
+      "reasons": [
+        "mean_cost=4.649"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 9,
+        "meds_matched": 9,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.649,
+        "max_dp_cost": 34.862
+      }
+    },
+    {
+      "page": 506,
+      "reasons": [
+        "mean_cost=4.531"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 25,
+        "meds_matched": 25,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 1,
+        "sajdahs_matched": 1,
+        "mean_dp_cost": 4.531,
+        "max_dp_cost": 51.255
+      }
+    },
+    {
+      "page": 458,
+      "reasons": [
+        "mean_cost=4.448"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 7,
+        "meds_matched": 7,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.448,
+        "max_dp_cost": 29.21
+      }
+    },
+    {
+      "page": 476,
+      "reasons": [
+        "mean_cost=4.366"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 6,
+        "meds_matched": 6,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.366,
+        "max_dp_cost": 28.243
+      }
+    },
+    {
+      "page": 100,
+      "reasons": [
+        "mean_cost=4.316"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 9,
+        "meds_matched": 9,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.316,
+        "max_dp_cost": 20.175
+      }
+    },
+    {
+      "page": 385,
+      "reasons": [
+        "mean_cost=4.305"
+      ],
+      "qa": {
+        "lines_detected": 12,
+        "db_lines": 12,
+        "meds_expected": 14,
+        "meds_matched": 14,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.305,
+        "max_dp_cost": 18.051
+      }
+    },
+    {
+      "page": 374,
+      "reasons": [
+        "mean_cost=4.292"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 21,
+        "meds_matched": 21,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.292,
+        "max_dp_cost": 20.927
+      }
+    },
+    {
+      "page": 412,
+      "reasons": [
+        "mean_cost=4.235"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 13,
+        "meds_matched": 13,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.235,
+        "max_dp_cost": 12.119
+      }
+    },
+    {
+      "page": 3,
+      "reasons": [
+        "mean_cost=4.223"
+      ],
+      "qa": {
+        "lines_detected": 7,
+        "db_lines": 7,
+        "meds_expected": 4,
+        "meds_matched": 4,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.223,
+        "max_dp_cost": 12.064
+      }
+    },
+    {
+      "page": 375,
+      "reasons": [
+        "mean_cost=4.18"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 29,
+        "meds_matched": 29,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.18,
+        "max_dp_cost": 11.068
+      }
+    },
+    {
+      "page": 294,
+      "reasons": [
+        "mean_cost=4.157"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 9,
+        "meds_matched": 9,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.157,
+        "max_dp_cost": 38.091
+      }
+    },
+    {
+      "page": 370,
+      "reasons": [
+        "mean_cost=4.155"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 19,
+        "meds_matched": 19,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.155,
+        "max_dp_cost": 19.205
+      }
+    },
+    {
+      "page": 273,
+      "reasons": [
+        "mean_cost=4.078"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 16,
+        "meds_matched": 16,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.078,
+        "max_dp_cost": 11.179
+      }
+    },
+    {
+      "page": 387,
+      "reasons": [
+        "mean_cost=4.001"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 10,
+        "meds_matched": 10,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 4.001,
+        "max_dp_cost": 19.209
+      }
+    },
+    {
+      "page": 391,
+      "reasons": [
+        "mean_cost=3.959"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 13,
+        "meds_matched": 13,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.959,
+        "max_dp_cost": 12.42
+      }
+    },
+    {
+      "page": 378,
+      "reasons": [
+        "mean_cost=3.949"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 31,
+        "meds_matched": 31,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.949,
+        "max_dp_cost": 18.893
+      }
+    },
+    {
+      "page": 274,
+      "reasons": [
+        "mean_cost=3.905"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 12,
+        "meds_matched": 12,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.905,
+        "max_dp_cost": 8.576
+      }
+    },
+    {
+      "page": 383,
+      "reasons": [
+        "mean_cost=3.886"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 21,
+        "meds_matched": 21,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.886,
+        "max_dp_cost": 9.51
+      }
+    },
+    {
+      "page": 417,
+      "reasons": [
+        "mean_cost=3.87"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 19,
+        "meds_matched": 19,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.87,
+        "max_dp_cost": 28.068
+      }
+    },
+    {
+      "page": 30,
+      "reasons": [
+        "mean_cost=3.868"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 4,
+        "meds_matched": 4,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.868,
+        "max_dp_cost": 9.267
+      }
+    },
+    {
+      "page": 421,
+      "reasons": [
+        "mean_cost=3.831"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 10,
+        "meds_matched": 10,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.831,
+        "max_dp_cost": 12.808
+      }
+    },
+    {
+      "page": 413,
+      "reasons": [
+        "mean_cost=3.814"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 14,
+        "meds_matched": 14,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.814,
+        "max_dp_cost": 12.219
+      }
+    },
+    {
+      "page": 480,
+      "reasons": [
+        "mean_cost=3.813"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 20,
+        "meds_matched": 20,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.813,
+        "max_dp_cost": 12.586
+      }
+    },
+    {
+      "page": 299,
+      "reasons": [
+        "mean_cost=3.8"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 4,
+        "meds_matched": 4,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.8,
+        "max_dp_cost": 9.559
+      }
+    },
+    {
+      "page": 338,
+      "reasons": [
+        "mean_cost=3.793"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 13,
+        "meds_matched": 13,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.793,
+        "max_dp_cost": 15.0
+      }
+    },
+    {
+      "page": 284,
+      "reasons": [
+        "mean_cost=3.788"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 10,
+        "meds_matched": 10,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 1,
+        "sajdahs_matched": 1,
+        "mean_dp_cost": 3.788,
+        "max_dp_cost": 20.067
+      }
+    },
+    {
+      "page": 312,
+      "reasons": [
+        "mean_cost=3.787"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 26,
+        "meds_matched": 26,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.787,
+        "max_dp_cost": 19.424
+      }
+    },
+    {
+      "page": 32,
+      "reasons": [
+        "mean_cost=3.779"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 4,
+        "meds_matched": 4,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.779,
+        "max_dp_cost": 6.671
+      }
+    },
+    {
+      "page": 31,
+      "reasons": [
+        "mean_cost=3.692"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 8,
+        "meds_matched": 8,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.692,
+        "max_dp_cost": 7.904
+      }
+    },
+    {
+      "page": 309,
+      "reasons": [
+        "mean_cost=3.691"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 27,
+        "meds_matched": 27,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.691,
+        "max_dp_cost": 27.478
+      }
+    },
+    {
+      "page": 522,
+      "reasons": [
+        "mean_cost=3.678"
+      ],
+      "qa": {
+        "lines_detected": 9,
+        "db_lines": 6,
+        "meds_expected": 15,
+        "meds_matched": 15,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.678,
+        "max_dp_cost": 10.518
+      }
+    },
+    {
+      "page": 178,
+      "reasons": [
+        "mean_cost=3.673"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 12,
+        "meds_matched": 12,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.673,
+        "max_dp_cost": 29.494
+      }
+    },
+    {
+      "page": 365,
+      "reasons": [
+        "mean_cost=3.645"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 6,
+        "meds_matched": 6,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.645,
+        "max_dp_cost": 21.324
+      }
+    },
+    {
+      "page": 47,
+      "reasons": [
+        "mean_cost=3.624"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 9,
+        "meds_matched": 9,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.624,
+        "max_dp_cost": 20.908
+      }
+    },
+    {
+      "page": 379,
+      "reasons": [
+        "mean_cost=3.621"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 31,
+        "meds_matched": 31,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.621,
+        "max_dp_cost": 11.251
+      }
+    },
+    {
+      "page": 362,
+      "reasons": [
+        "mean_cost=3.611"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 10,
+        "meds_matched": 10,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.611,
+        "max_dp_cost": 19.236
+      }
+    },
+    {
+      "page": 513,
+      "reasons": [
+        "mean_cost=3.611"
+      ],
+      "qa": {
+        "lines_detected": 11,
+        "db_lines": 10,
+        "meds_expected": 23,
+        "meds_matched": 23,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.611,
+        "max_dp_cost": 19.237
+      }
+    },
+    {
+      "page": 502,
+      "reasons": [
+        "mean_cost=3.61"
+      ],
+      "qa": {
+        "lines_detected": 13,
+        "db_lines": 12,
+        "meds_expected": 33,
+        "meds_matched": 33,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.61,
+        "max_dp_cost": 22.045
+      }
+    },
+    {
+      "page": 222,
+      "reasons": [
+        "mean_cost=3.599"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 13,
+        "meds_matched": 13,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.599,
+        "max_dp_cost": 18.022
+      }
+    },
+    {
+      "page": 453,
+      "reasons": [
+        "mean_cost=3.597"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 38,
+        "meds_matched": 38,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.597,
+        "max_dp_cost": 18.333
+      }
+    },
+    {
+      "page": 237,
+      "reasons": [
+        "mean_cost=3.595"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 12,
+        "meds_matched": 12,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.595,
+        "max_dp_cost": 12.803
+      }
+    },
+    {
+      "page": 37,
+      "reasons": [
+        "mean_cost=3.591"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 5,
+        "meds_matched": 5,
+        "rubs_expected": 0,
+        "rubs_matched": 0,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.591,
+        "max_dp_cost": 7.337
+      }
+    },
+    {
+      "page": 110,
+      "reasons": [
+        "mean_cost=3.542"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 8,
+        "meds_matched": 8,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.542,
+        "max_dp_cost": 21.37
+      }
+    },
+    {
+      "page": 36,
+      "reasons": [
+        "mean_cost=3.535"
+      ],
+      "qa": {
+        "lines_detected": 15,
+        "db_lines": 15,
+        "meds_expected": 6,
+        "meds_matched": 6,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.535,
+        "max_dp_cost": 12.083
+      }
+    },
+    {
+      "page": 514,
+      "reasons": [
+        "mean_cost=3.527"
+      ],
+      "qa": {
+        "lines_detected": 11,
+        "db_lines": 8,
+        "meds_expected": 18,
+        "meds_matched": 18,
+        "rubs_expected": 1,
+        "rubs_matched": 1,
+        "sajdahs_expected": 0,
+        "sajdahs_matched": 0,
+        "mean_dp_cost": 3.527,
+        "max_dp_cost": 31.866
+      }
+    }
+  ]
+}
